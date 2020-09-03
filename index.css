@@ -1,0 +1,83 @@
+body{
+background-color:#e4e9eb
+}
+
+.title{
+  font-size: 47px;
+  font-family: 'Song Myung', serif;
+  color: #654062;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.normal-text{
+  font-family: 'Song Myung', serif;
+  color: #34495e;
+  font-weight: bold;
+  font-size: 20px;
+}
+.placeholder-text{
+  font-family: 'Song Myung', serif;
+  color: #34495e;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.date{
+  font-family: 'Song Myung', serif;
+  color: #6f8251;
+  text-align: center;
+  
+}
+.clock {
+  font-family: 'Song Myung', serif;
+  color: #6f8251;
+  transition: color 0.5s ease-in-out;
+  text-align: center;
+}
+
+.clicked{
+    color: #7f8c8d;
+}
+
+
+.showing{
+    display: block;
+}
+
+.container-DC:after{clear: both; display: block; content: '';}
+
+.container-DC .date{
+  float: left;
+  width: 40%;
+  text-align: right;
+  
+}
+
+.container-DC .clock{
+  float: right;
+  width: 40%;
+  text-align: left;
+  border-right: none;
+}
+
+.container-TD:after{clear: both; display: block; content: '';}
+
+.container-TD .TD1{
+  float: left;
+  width: 40%;
+  margin-left: 40px;
+}
+
+.container-TD .TD2{
+  float: right;
+  width: 40%;
+  margin-left: 40px;
+}
+
+ul{
+  line-height: 2em;
+}
