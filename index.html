@@ -21,6 +21,8 @@
             <h1 class="clock">00:00:00</h1>
         </div>
     </div>
+    <h1 class="subindex"><a href="sub_index01.html">[ Monthly Plan ]</a> </h1>
+    <h1 class="subindex"><a href="sub_index02.html">[ Yearly Plan ]</a> </h1>
 
     <div class="container-TD">
         <div class="TD1">
@@ -38,13 +40,31 @@
             <ul class="js-univtoDoList normal-text">
             </ul>
         </div>
+
+        <div class="TD3">
+            <form class="js-weeklytoDoForm">
+                <input class="placeholder-text" type="text" placeholder="Don't Forget!"/>
+            </form>
+            <ul class="js-weeklytoDoList normal-text">
+            </ul>
+        </div>
+
     </div>
 
     <script src="date.js"></script>
     <script src="clock.js"></script>
     <script src="todo.js"></script>
     <script src="todo-2nd.js"></script>
+    <script src="todo-3rd.js"></script>
 
-    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.19.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.19.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 </body>
 </html>
